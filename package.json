@@ -1,0 +1,30 @@
+{
+  "name": "js-integration-wolfram",
+  "version": "0.0.1",
+  "description": "Wolfram integration with Botmatic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/botmatic/js-integration-wolfram.git"
+  },
+  "keywords": [
+    "botmatic",
+    "wolfram",
+    "chatbot",
+    "bot",
+    "messaging",
+    "nlp"
+  ],
+  "author": "Botmatic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botmatic/js-integration-wolfram/issues"
+  },
+  "homepage": "https://github.com/botmatic/js-integration-wolfram#readme",
+  "dependencies": {
+    "@botmatic/js-integration": "^0.4.3"
+  }
+}
