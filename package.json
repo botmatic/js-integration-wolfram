@@ -4,6 +4,7 @@
   "description": "Wolfram integration with Botmatic",
   "main": "index.js",
   "scripts": {
+    "deploy": "now-pipeline --alias js-integration-wolfram.now.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
