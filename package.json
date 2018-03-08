@@ -1,11 +1,11 @@
 {
-  "name": "js-integration-wolfram",
+  "name": "@botmatic/wolfram",
   "version": "0.0.1",
   "description": "Wolfram integration with Botmatic",
   "main": "index.js",
   "scripts": {
-    "deploy": "now-pipeline --alias js-integration-wolfram.now.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "deploy": "now-pipeline --alias integration-wolfram.now.sh"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/botmatic/js-integration-wolfram/issues"
+  },
+  "now": {
+    "alias": "integration-wolfram.now.sh",
+    "dotenv": true
   },
   "homepage": "https://github.com/botmatic/js-integration-wolfram#readme",
   "dependencies": {

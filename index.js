@@ -2,7 +2,7 @@ const request = require('request')
 const botmaticDatastore = require('./src/datastore')
 const path = require('path')
 require('dotenv').config({
-  path: path.join(__dirname, '/.env')
+  path: path.join(__dirname, '.env')
 })
 const settingsPath = '/settings'
 const botmatic = require('@botmatic/js-integration')({
